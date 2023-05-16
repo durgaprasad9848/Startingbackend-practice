@@ -14,4 +14,4 @@ app.use((req, res, next) => {
   console.log("in the middle of second middleware");
 });
 
-http.createServer(app).listen(5000);
+app.listen(5000);
